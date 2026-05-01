@@ -1,11 +1,11 @@
 # Hi there, I'm pannet1 👋
 
-I'm a developer with a keen interest in the stock market, looking to build useful tools and analyze data.
+I'm a **Python Developer** specializing in **Algorithmic Trading** and **Financial Automation**. I build tools that bridge the gap between data analysis and live market execution.
 
 ### 👨‍💻 About Me
-- 👀 I’m highly interested in the **stock market** and algorithmic trading.
-- 🌱 I’m currently learning **Python** and **JavaScript** to build powerful applications.
-- 💞️ I’m looking to collaborate on interesting **Python projects**, especially those related to data analysis, automation, or finance.
+- 👀 I’m highly interested in the **stock market**, quantitative analysis, and automated trading systems.
+- 🌱 I’m currently refining my skills in **Python** (FastAPI) and **JavaScript** to build robust trading interfaces.
+- 💞️ I’m looking to collaborate on **Fintech projects**, especially those involving broker APIs (Zerodha/XTS), data visualization, or trading bots.
 - ⚡ Fun fact: I sleep on my laptop
 
 ### 🛠️ Tech Stack & Tools
