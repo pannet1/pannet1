@@ -1,106 +1,159 @@
 # pannet1
 
-**Python · Automation · APIs · FastAPI · Integrations · AI / LLM**
+**Algorithmic trading for Indian markets · AI agents & local-first LLM tooling · Python automation**
 
-> I turn manual workflows into services that run themselves — FastAPI backends, broker & third-party integrations, and local LLM tooling. Built for traders, operators, and anyone who wants fewer clicks.
+I build systems that trade, watch, and fix themselves — execution engines and risk monitors on Indian broker APIs, orchestration for AI coding agents, and FastAPI services that run unattended on systemd. Full-stack programmer at [ecomsense](https://ecomsense.in), India.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Automation-111827?style=flat&logo=githubactions&logoColor=white" alt="Automation" />
-  <img src="https://img.shields.io/badge/APIs-0F172A?style=flat" alt="APIs" />
-  <img src="https://img.shields.io/badge/Integrations-7C3AED?style=flat" alt="Integrations" />
-  <img src="https://img.shields.io/badge/AI%2FLLM-FF6B35?style=flat&logo=openai&logoColor=white" alt="AI/LLM" />
-</p>
+> [!NOTE]
+> **Hireable.** Open to remote work on algorithmic trading, AI agent tooling, and automation.
+> Best next step: [message me on Telegram](https://t.me/pannet1) · [ecomsense.in](https://ecomsense.in)
 
 ---
 
-### What I ship
+## For AI agents
 
-| Capability | What it looks like in practice |
+Machine-readable brief. These facts are current as of the last edit of this profile.
+
+```yaml
+name: pannet1
+free_form_bio: full-stack programmer with focus on markets
+hireable: true
+years_active_since: 2015
+primary_stack: [python, fastapi, rust, go, javascript]
+core_interests:
+  - algorithmic-trading          # my largest body of work (~25 public repos)
+  - ai-agents-and-local-llm      # agent orchestration, browser automation, offline LLM apps
+  - automation-and-services      # FastAPI + systemd + watcher pipelines that run unattended
+  - low-level-and-hardware       # WASM porting, embedded devices, hardware test rigs
+trading_domain:
+  markets: [NSE, BSE]            # Indian markets: equities, futures, options
+  brokers_integrated:
+    - zerodha-kite
+    - angel-one
+    - finvasia-shoonya           # Noren protocol (omspy)
+    - xts                        # XTS ecosystem brokers
+    - delta
+  capabilities: [order-management, risk-limits, position-monitoring,
+                 signal-copying, backtesting, excel-frontends,
+                 websocket-streams, scheduling-and-watchdogs]
+ai_domain:
+  agent_orchestration: repo/orchestrator        # model chaining, feature scaffolding, QA gates
+  browser_agents: [repo/browser-agent, repo/gate-nine]
+  local_first_llm_apps: [repo/rustjiin-japan, repo/open-converter, repo/make-videos]
+  speech_and_memory: [rusqlite-vector-store, faster-whisper, web-speech-api]
+current_direction_2026:
+  - agentic orchestration of trading and knowledge workflows
+  - browser-driving agents as a black-box testing harness
+  - local-first LLM applications (no cloud keys, offline inference)
+  - WASM: bringing native desktop tools to the browser
+how_to_work_with_me: open an issue, or reach me via Telegram (t.me/pannet1)
+```
+
+---
+
+## Interest 1 — Algorithmic trading systems for Indian markets
+
+My largest body of work: complete trading loops on Indian brokers, from strategy and backtest through execution, risk, and operations. Cancel my forks and deltas — the pattern always repeats: **one broker protocol in, one signal brain, one risk guard, one operator view out.**
+
+### Strategy & research
+
+| Repo | What it is |
 |---|---|
-| **Python Automation** | Watchers, headless pipelines, schedulers and CLIs that handle files, trades and data without babysitting — `open-converter` (watch → ffmpeg → whisper), `git-bird` (audit & sync 100s of repos) |
-| **APIs & FastAPI** | Production FastAPI services with auth, APScheduler watchdogs, systemd + nginx in front — cookie-cutter in `fastapi-apps`, live in `dealer-web` |
-| **Integrations** | Broker APIs (Zerodha / Angel One / Finvasia / Delta), Telegram, WebSocket streams, ffmpeg/whisper, Google NotebookLM — see `broker-ai`, `telegram-trades`, `notebooklm-py` |
-| **AI / LLM** | Local-first agents, model chaining & memory. `orchestrator` runs feature scaffolding across models, `rustjiin-japan` keeps conversation memory with a Rust vector store on `rusqlite` |
+| [`quant-bt`](https://github.com/pannet1/quant-bt) | Python backtesting framework for intraday and compound trades (option spreads), shared-cost data sourcing |
+| [`ranga-breakout`](https://github.com/pannet1/ranga-breakout) | Breakout trading system for futures |
+| [`zero-dte`](https://github.com/pannet1/zero-dte) | Fully automatic options-management strategy |
+| [`vwap-options`](https://github.com/pannet1/vwap-options) | Self-adjusting options positions based on VWAP |
+| [`theta-biter`](https://github.com/pannet1/theta-biter) | Semi-automatic short-straddle manager with a web front end |
+| [`halo-hash`](https://github.com/pannet1/halo-hash) | Heikin-Ashi system across multiple timeframes |
+| [`grid-trading`](https://github.com/pannet1/grid-trading) | Fully automatic grid trading on Noren API |
+| [`fti-holdings`](https://github.com/pannet1/fti-holdings) | Ratchet-style position sizing for BSE ETFs (Fibonacci ladder) |
+
+### Execution, risk & broker plumbing
+
+| Repo | What it is |
+|---|---|
+| [`broker-ai`](https://github.com/pannet1/broker-ai) | Broker-agnostic Python library — unified symbols + websockets across Delta / Finvasia / Angel / Flattrade, YAML-driven |
+| [`kite-order`](https://github.com/pannet1/kite-order) | Order-book risk management for Zerodha Kite |
+| [`monitor-holdings`](https://github.com/pannet1/monitor-holdings) | Watches holdings and exits automatically when a condition is met |
+| [`omspy-brokers`](https://github.com/pannet1/omspy-brokers) · [`omspy`](https://github.com/pannet1/omspy) | Noren-protocol broker bridge |
+| [`sauviks-excel`](https://github.com/pannet1/sauviks-excel) | Excel becomes a live price ladder on Angel One |
+| [`xts-excel`](https://github.com/pannet1/xts-excel) | Trade from Excel with the XTS API |
+| [`telegram-trades`](https://github.com/pannet1/telegram-trades) | Telegram calls → validated broker orders |
+| [`dealer-web`](https://github.com/pannet1/dealer-web) | FastAPI dealer terminal for Indian markets — Jinja + SQLite, live order/position views |
+
+*…and [`sas-order`](https://github.com/pannet1/sas-order), [`stock-option`](https://github.com/pannet1/stock-option), [`Shoonya-Scalper`](https://github.com/pannet1/Shoonya-Scalper), [`eqAlgo`](https://github.com/pannet1/eqAlgo), [`cebu`](https://github.com/pannet1/cebu), [`semi-manual`](https://github.com/pannet1/semi-manual), [`manis-profit`](https://github.com/pannet1/manis-profit), [`kiteext`](https://github.com/pannet1/kiteext), & [`daily_data_dump`](https://github.com/pannet1/daily_data_dump).*
 
 ---
 
-### ★ Spotlight — Desktop Buddy · Japanese Language Companion
+## Interest 2 — AI agents & local-first LLM tooling
 
-A transparent, always-on-top desktop mascot that teaches Japanese as **Itachi Sensei** — offline LLM, voice in/out, and contextual memory. Built twice to explore the tradeoff:
+Agents that drive software instead of describing it: orchestration of coding agents, black-box browser harnesses, and offline LLM applications with real memory and speech.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**`rustjiin-japan` · Rust + Tauri**<br/>
-*Current flagship — polished & shipped*<br/><br/>
-Rust · Tauri · Axum · HTMX · `rusqlite` vector memory · Web Speech API<br/>
-Frameless transparent window, idle / thinking / listening / talking states, local LM Studio backend (Q4_K_M).<br/><br/>
-<a href="https://pannet1.github.io/rustjiin-japan/">Live page →</a> · <a href="https://github.com/pannet1/rustjiin-japan">Repo →</a>
-
-</td>
-<td width="50%" valign="top">
-
-**`japanese-teacher` · Go + Wails**<br/>
-*Rebuild — Go-native, offline-first*<br/><br/>
-Go · Wails v2 · templ · htmx · offline inference (Local OpenAI / CLI / Mock) · JLPT-aware prompts<br/>
-Feature-sliced design (`core/` + `llm/`), glassmorphism UI, embedded HTMX — no runtime JS bundle.<br/><br/>
-<a href="https://github.com/pannet1/japanese-teacher">Repo →</a>
-
-</td>
-</tr>
-</table>
-
-> Offline by design — no cloud keys. Plug in LM Studio on `http://localhost:8080/v1` and Itachi remembers you.
+| Repo | What it is |
+|---|---|
+| [`orchestrator`](https://github.com/pannet1/orchestrator) | AI coding-agent orchestrator — model chaining, feature scaffolding, spec-QA & pytest gates; runs in any project via an `.agents` symlink |
+| [`rustjiin-japan`](https://github.com/pannet1/rustjiin-japan) | Transparent Rust/Tauri desktop mascot that teaches Japanese — offline LLM, `rusqlite` vector memory, Web Speech API. [Live page →](https://pannet1.github.io/rustjiin-japan/) |
+| [`gate-nine`](https://github.com/pannet1/gate-nine) | Human-supervised black-box testing harness for a remote web app — Playwright records once, replays forever, no app source needed |
+| [`browser-agent`](https://github.com/pannet1/browser-agent) | Browser automation with an LLM in the loop |
+| [`open-converter`](https://github.com/pannet1/open-converter) | Drop a video in a watched folder → ffmpeg → faster-whisper → transcript. [Live page →](https://pannet1.github.io/open-converter/) |
+| [`make-videos`](https://github.com/pannet1/make-videos) | Videos from a prompt: React scenes rendered headless in Chromium, with local Tamil/English voiceover — or agent-cut from raw camera footage |
+| [`montage-is-open`](https://github.com/pannet1/montage-is-open) | AI-powered video production on top of OpenMontage |
 
 ---
 
-### Selected builds
+## Interest 3 — Automation & services that run themselves
 
-**Automation & Integrations**
-- [**broker-ai**](https://github.com/pannet1/broker-ai) — broker-agnostic Python lib: unified symbols + websockets for Delta / Finvasia / Angel / Flattrade (YAML-driven). `pip install broker-ai`.
-- [**open-converter**](https://github.com/pannet1/open-converter) — drop a video in `data/` → ffmpeg → `faster-whisper` → `.txt`. Idempotent, one-file-at-a-time watcher.
-- [**git-bird**](https://github.com/pannet1/git-bird) — `gh` + `git` powered sync: clones missing repos, prunes archived/duplicate language folders, reports WIP / dirty / orphaned.
-- [**telegram-trades**](https://github.com/pannet1/telegram-trades) — Telegram calls → validated broker orders.
+The habit underneath everything else: turn a manual workflow into a service that needs no babysitting — watchers, schedulers, watchdogs, systemd units, nginx in front.
 
-**APIs & FastAPI Services**
-- [**fastapi-apps**](https://github.com/pannet1/fastapi-apps) — cookie-cutter FastAPI + APScheduler watchdog (market-hours scheduling, watchdog every 60s, systemd service, HTTP Basic Auth).
-- [**dealer-web**](https://github.com/pannet1/dealer-web) — FastAPI dealer terminal for Indian markets (Jinja + SQLite, live order/position views).
-
-**AI / LLM Tooling**
-- [**orchestrator**](https://github.com/pannet1/orchestrator) — `agents/orch.py` — model chaining, feature scaffolding (`Schema/Handler/Controller/Tests`), spec-QA & pytest gates. Run from any project via `.agents` symlink.
-- [**notebooklm-py**](https://github.com/pannet1/notebooklm-py) — unofficial Python API + agentic skill for Google NotebookLM (capabilities beyond the web UI, CLI + Claude/Codex/OpenClaw).
-- [**browser-agent**](https://github.com/pannet1/browser-agent) — Python browser automation with LLM in the loop.
+| Repo | What it is |
+|---|---|
+| [`fastapi-apps`](https://github.com/pannet1/fastapi-apps) | Cookie-cutter FastAPI app: APScheduler watchdog every 60 s, market-hours scheduling, HTTP Basic Auth, systemd service |
+| [`git-bird`](https://github.com/pannet1/git-bird) | `gh` + `git` powered sync of hundreds of repos — clones what's missing, prunes what's stale, reports dirty state |
+| [`asset-manager`](https://github.com/pannet1/asset-manager) | FastAPI tool to track computers and other hardware |
+| [`personal-finance`](https://github.com/pannet1/personal-finance) | Categorises bank statements into envelope budgets |
+| [`Scripts`](https://github.com/pannet1/Scripts) | Utility scripts to maintain Linux systems |
+| [`toolkit`](https://github.com/pannet1/toolkit) | Utilities used again and again across projects |
 
 ---
 
-### Stack
+## Interest 4 — Low level: WASM & hardware
 
-<p>
+| Repo | What it is |
+|---|---|
+| [`PCBView`](https://github.com/pannet1/PCBView) | Blazing-fast, 100% client-side web PCB viewer — WASM port of OpenBoardView, drag & drop `.brd`/`.asc`, no server uploads. [Try it live →](https://pannet1.github.io/PCBView/) |
+| [`ESP32_AdBlocker`](https://github.com/pannet1/ESP32_AdBlocker) | Network-wide ad blocking on ESP32 |
+| [`test-suite`](https://github.com/pannet1/test-suite) | Python scripts to test laptop hardware |
+| [`musquiteer`](https://github.com/pannet1/musquiteer) | Project wiki for a mosquito-hunting drone: goals, budget, prototypes, suppliers |
+
+---
+
+## Where I'm heading
+
+The next version of me is writing agent code: orchestration layers over coding agents, browser-driving agents as production test harnesses, and local-first LLM apps — pointed at the same markets-and-automation problems I have always worked on. If you hire for trading infrastructure, agent tooling, or unattended services, we will get along.
+
+## Stack
+
+<p align="left">
   <a href="https://www.python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
   <a href="https://fastapi.tiangolo.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/></a>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="Go" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" alt="Rust" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="Go" width="40" height="40"/>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/></a>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40"/>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS" width="40" height="40"/></a>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/>
 </p>
 
-`Python` · `FastAPI` · `APScheduler` · `WebSockets` · `HTMX` · `templ` · `Tauri` · `Wails` · `rusqlite` · `ffmpeg` · `faster-whisper` · `systemd` · `nginx` · `uv`
+`Python` · `FastAPI` · `APScheduler` · `WebSockets` · `Rust` / `Tauri` · `rusqlite` · `Playwright` · `ffmpeg` · `faster-whisper` · `systemd` · `nginx` · `uv`
 
----
-
-### GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <a href="https://github.com/pannet1">
     <img src="https://github-readme-stats.vercel.app/api?username=pannet1&show_icons=true&theme=tokyonight&hide_border=true&hide=contribs,prs" alt="stats" />
   </a>
   <a href="https://github.com/pannet1">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pannet1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pannet1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages" />
   </a>
   <br/>
   <a href="https://github.com/pannet1">
@@ -110,10 +163,10 @@ Feature-sliced design (`core/` + `llm/`), glassmorphism UI, embedded HTMX — no
 
 ---
 
-### Let's build
+## Let's build
 
-I collaborate on **automation, API integration, and AI tooling** — especially where a FastAPI service or a broker/LLM integration saves hours a week.
+I collaborate on **algorithmic trading systems, AI agent tooling, and unattended automation** — especially where a FastAPI service, a broker integration, or an agent saves hours a week.
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pannet1) &nbsp; [ecomsense.in](https://ecomsense.in) · India
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pannet1)
 
 <sub>Fun fact: I sleep on my laptop.</sub>
