@@ -97,7 +97,6 @@ Agents that drive software instead of describing it: orchestration of coding age
 | [`browser-agent`](https://github.com/pannet1/browser-agent) | Browser automation with an LLM in the loop |
 | [`open-converter`](https://github.com/pannet1/open-converter) | Drop a video in a watched folder → ffmpeg → faster-whisper → transcript. [Live page →](https://pannet1.github.io/open-converter/) |
 | [`make-videos`](https://github.com/pannet1/make-videos) | Videos from a prompt: React scenes rendered headless in Chromium, with local Tamil/English voiceover — or agent-cut from raw camera footage |
-| [`montage-is-open`](https://github.com/pannet1/montage-is-open) | AI-powered video production on top of OpenMontage |
 
 ---
 
@@ -107,10 +106,10 @@ The habit underneath everything else: turn a manual workflow into a service that
 
 | Repo | What it is |
 |---|---|
-| [`fastapi-apps`](https://github.com/pannet1/fastapi-apps) | Cookie-cutter FastAPI app: APScheduler watchdog every 60 s, market-hours scheduling, HTTP Basic Auth, systemd service |
+| [`fastapi-apps`](https://github.com/pannet1/fastapi-apps) | Modular FastAPI application runner with APScheduler watchdog, market-hours scheduling, HTTP Basic Auth, and systemd deployment |
+| ↳ [`asset-manager`](https://github.com/pannet1/fastapi-apps/tree/main/apps/asset-manager) | Sub-app under `fastapi-apps` to track computers and hardware inventory |
+| ↳ [`personal-finance`](https://github.com/pannet1/fastapi-apps/tree/main/apps/personal-finance) | Sub-app under `fastapi-apps` categorising bank statements into envelope budgets |
 | [`git-bird`](https://github.com/pannet1/git-bird) | `gh` + `git` powered sync of hundreds of repos — clones what's missing, prunes what's stale, reports dirty state |
-| [`asset-manager`](https://github.com/pannet1/asset-manager) | FastAPI tool to track computers and other hardware |
-| [`personal-finance`](https://github.com/pannet1/personal-finance) | Categorises bank statements into envelope budgets |
 | [`Scripts`](https://github.com/pannet1/Scripts) | Utility scripts to maintain Linux systems |
 | [`toolkit`](https://github.com/pannet1/toolkit) | Utilities used again and again across projects |
 
