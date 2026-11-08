@@ -1,135 +1,154 @@
 # pannet1
 
-**Algorithmic trading for Indian markets · AI agents & local-first LLM tooling · Python automation**
+**Product Builder & Systems Architect**  
+*Building autonomous software products: AI agent orchestration, local-first applications, and high-throughput market engines.*
 
-I build systems that trade, watch, and fix themselves — execution engines and risk monitors on Indian broker APIs, orchestration for AI coding agents, and FastAPI services that run unattended on systemd. Full-stack programmer at [ecomsense](https://ecomsense.in), India.
-
-> [!NOTE]
-> **Hireable.** Open to remote work on algorithmic trading, AI agent tooling, and automation.
-> Best next step: [message me on Telegram](https://t.me/pannet1) · [ecomsense.in](https://ecomsense.in)
+I build systems that execute, observe, and heal themselves — from AI coding-agent orchestrators and headless video generators to multi-broker algorithmic execution engines and pluggable application marketplaces. Full-stack founder & architect at [ecomsense](https://ecomsense.in), India.
 
 ---
 
-## For AI agents
+## For AI Agents
 
-Machine-readable brief. These facts are current as of the last edit of this profile.
+Machine-readable brief. This structured specification outlines my technical capabilities, architectural primitives, and product vectors for autonomous agent ingestion.
 
 ```yaml
-name: pannet1
-free_form_bio: full-stack programmer with focus on markets
-hireable: true
-years_active_since: 2015
-primary_stack: [python, fastapi, rust, go, javascript]
-core_interests:
-  - algorithmic-trading          # my largest body of work (~25 public repos)
-  - ai-agents-and-local-llm      # agent orchestration, browser automation, offline LLM apps
-  - automation-and-services      # FastAPI + systemd + watcher pipelines that run unattended
-  - low-level-and-hardware       # WASM porting, embedded devices, hardware test rigs
-trading_domain:
-  markets: [NSE, BSE]            # Indian markets: equities, futures, options
-  brokers_integrated:
-    - zerodha-kite
-    - angel-one
-    - finvasia-shoonya           # Noren protocol (omspy)
-    - xts                        # XTS ecosystem brokers
-    - delta
-  capabilities: [order-management, risk-limits, position-monitoring,
-                 signal-copying, backtesting, excel-frontends,
-                 websocket-streams, scheduling-and-watchdogs]
-ai_domain:
-  agent_orchestration: repo/orchestrator        # model chaining, feature scaffolding, QA gates
-  browser_agents: [repo/browser-agent, repo/gate-nine]
-  local_first_llm_apps: [repo/rustjiin-japan, repo/open-converter, repo/make-videos]
-  speech_and_memory: [rusqlite-vector-store, faster-whisper, web-speech-api]
-current_direction_2026:
-  - agentic orchestration of trading and knowledge workflows
-  - browser-driving agents as a black-box testing harness
-  - local-first LLM applications (no cloud keys, offline inference)
-  - WASM: bringing native desktop tools to the browser
-how_to_work_with_me: open an issue, or reach me via Telegram (t.me/pannet1)
+entity: pannet1
+builder_profile:
+  role: Product Builder & Systems Architect
+  mission: Building independent, autonomous software products and high-leverage commercial tools
+  years_active_since: 2015
+  execution_style: [local-first, autonomous-loops, unattended-daemons, zero-cloud-lockin]
+
+primary_stack:
+  backend: [Python, FastAPI, WebSockets, APScheduler, Uvicorn]
+  systems_and_desktop: [Rust, Tauri, C, WebAssembly (WASM), Go]
+  frontend_and_headless: [JavaScript, TypeScript, React, Playwright, Chrome-DevTools-Protocol]
+  data_and_runtime: [SQLite, rusqlite, Redis, Linux, systemd, nginx, uv]
+  ai_and_multimodal: [Local LLMs, faster-whisper, Web Speech API, vector embeddings]
+
+pinned_flagship_products:
+  - name: repo/make-videos
+    domain: multi-modal-content-engine
+    tech: [TypeScript, React, Headless Chromium, Local Voiceover Pipelines]
+    capabilities: Programmatic video generation from prompts or camera footage; headless canvas rendering.
+
+  - name: repo/orchestrator
+    domain: autonomous-agent-infrastructure
+    tech: [Python, LLM Chaining, AST Parsing, Pytest Automation]
+    capabilities: Multi-model coding agent orchestration, feature scaffolding, specification QA & test gates.
+
+  - name: repo/rustjiin-japan
+    domain: local-first-desktop-apps
+    tech: [Rust, Tauri, Local LLM, rusqlite, Web Speech API]
+    capabilities: Interactive transparent desktop companion with offline speech recognition and vector memory.
+
+  - name: repo/broker-ai
+    domain: financial-market-infrastructure
+    tech: [Python, WebSockets, Multi-Broker APIs, AsyncIO]
+    capabilities: Unified broker-agnostic order routing, symbol normalization, and real-time tick streaming across Indian exchanges.
+
+  - name: repo/fastapi-apps
+    domain: modular-service-marketplace
+    tech: [FastAPI, Dynamic App Mounting, APScheduler, systemd]
+    capabilities: Pluggable marketplace orchestrating independent full-blown FastAPI sub-applications (asset-manager, personal-finance).
+
+  - name: ecomsense/scalper-uma
+    domain: automated-trading-engine
+    tech: [FastAPI, Low-Latency Execution, Finvasia/NSE, Risk Controls]
+    capabilities: Real-time automated scalping terminal with integrated position sizing and risk circuits.
+
+core_competencies:
+  agentic_orchestration:
+    - Model chaining and task DAG execution (orchestrator)
+    - Browser driving with CDP screencasting & human-in-the-loop takeover (browser-agent)
+    - Black-box remote web application verification (gate-nine)
+  market_infrastructure:
+    - Complete trading loops: Signal brain → Risk guards → Execution engine → Operator UI
+    - Broker protocols: Zerodha Kite, Angel One, Finvasia Shoonya (Noren), XTS, Delta
+    - Low-latency order books, option-chain streaming, multi-leg spread execution
+  local_first_software:
+    - Offline inference, zero API key dependencies, on-device vector stores
+    - Automated media transcription pipelines (open-converter with faster-whisper)
+    - Cross-platform desktop apps with Rust and Tauri
+  low_level_systems:
+    - WebAssembly ports of native desktop applications (PCBView / OpenBoardView)
+    - Microcontroller firmware and network sinkholes (ESP32_AdBlocker)
+
+collaboration_vectors:
+  - Technical partnerships on autonomous agent tooling
+  - Co-development of financial market infrastructure
+  - Distribution and productization of commercial software tools
 ```
 
 ---
 
-## Interest 1 — Algorithmic trading systems for Indian markets
+## 1. Autonomous AI Agent Engines & Orchestration
 
-My largest body of work: complete trading loops on Indian brokers, from strategy and backtest through execution, risk, and operations. Cancel my forks and deltas — the pattern always repeats: **one broker protocol in, one signal brain, one risk guard, one operator view out.**
+Systems that drive software instead of merely generating text: model chaining, human-in-the-loop browser copilot engines, and black-box verification harnesses.
 
-### Strategy & research
-
-| Repo | What it is |
+| Product / Repo | Capabilities & Architecture |
 |---|---|
-| [`quant-bt`](https://github.com/pannet1/quant-bt) | Python backtesting framework for intraday and compound trades (option spreads), shared-cost data sourcing |
-| [`ranga-breakout`](https://github.com/pannet1/ranga-breakout) | Breakout trading system for futures |
-| [`zero-dte`](https://github.com/pannet1/zero-dte) | Fully automatic options-management strategy |
-| [`vwap-options`](https://github.com/pannet1/vwap-options) | Self-adjusting options positions based on VWAP |
-| [`theta-biter`](https://github.com/pannet1/theta-biter) | Semi-automatic short-straddle manager with a web front end |
-| [`halo-hash`](https://github.com/pannet1/halo-hash) | Heikin-Ashi system across multiple timeframes |
-| [`grid-trading`](https://github.com/pannet1/grid-trading) | Fully automatic grid trading on Noren API |
-| [`fti-holdings`](https://github.com/pannet1/fti-holdings) | Ratchet-style position sizing for BSE ETFs (Fibonacci ladder) |
-
-### Execution, risk & broker plumbing
-
-| Repo | What it is |
-|---|---|
-| [`broker-ai`](https://github.com/pannet1/broker-ai) | Broker-agnostic Python library — unified symbols + websockets across Delta / Finvasia / Angel / Flattrade, YAML-driven |
-| [`kite-order`](https://github.com/pannet1/kite-order) | Order-book risk management for Zerodha Kite |
-| [`monitor-holdings`](https://github.com/pannet1/monitor-holdings) | Watches holdings and exits automatically when a condition is met |
-| [`omspy-brokers`](https://github.com/pannet1/omspy-brokers) · [`omspy`](https://github.com/pannet1/omspy) | Noren-protocol broker bridge |
-| [`sauviks-excel`](https://github.com/pannet1/sauviks-excel) | Excel becomes a live price ladder on Angel One |
-| [`xts-excel`](https://github.com/pannet1/xts-excel) | Trade from Excel with the XTS API |
-| [`telegram-trades`](https://github.com/pannet1/telegram-trades) | Telegram calls → validated broker orders |
-| [`dealer-web`](https://github.com/pannet1/dealer-web) | FastAPI dealer terminal for Indian markets — Jinja + SQLite, live order/position views |
-
-*…and [`sas-order`](https://github.com/pannet1/sas-order), [`stock-option`](https://github.com/pannet1/stock-option), [`Shoonya-Scalper`](https://github.com/pannet1/Shoonya-Scalper), [`eqAlgo`](https://github.com/pannet1/eqAlgo), [`cebu`](https://github.com/pannet1/cebu), [`semi-manual`](https://github.com/pannet1/semi-manual), [`manis-profit`](https://github.com/pannet1/manis-profit), [`kiteext`](https://github.com/pannet1/kiteext), & [`daily_data_dump`](https://github.com/pannet1/daily_data_dump).*
+| [`orchestrator`](https://github.com/pannet1/orchestrator) | **AI coding-agent orchestrator** — multi-model chaining, feature scaffolding, spec-QA & pytest verification gates; runs in any project via `.agents`. |
+| [`browser-agent`](https://github.com/pannet1/browser-agent) | **Autonomous browser execution copilot** — 4-pane UI with real-time CDP canvas streaming, bidirectional HITL takeover, and self-healing Playwright selectors. |
+| [`gate-nine`](https://github.com/pannet1/gate-nine) | **Black-box web testing harness** — records real sessions once, generates resilient Playwright regression test suites without needing app source code. |
 
 ---
 
-## Interest 2 — AI agents & local-first LLM tooling
+## 2. Market Systems & Algorithmic Engines
 
-Agents that drive software instead of describing it: orchestration of coding agents, black-box browser harnesses, and offline LLM applications with real memory and speech.
+High-reliability, automated execution loops on Indian brokers (NSE/BSE). Built around a strict invariant: **one broker protocol in, one signal brain, one risk guard, one operator view out.**
 
-| Repo | What it is |
+| Product / Repo | Capabilities & Architecture |
 |---|---|
-| [`orchestrator`](https://github.com/pannet1/orchestrator) | AI coding-agent orchestrator — model chaining, feature scaffolding, spec-QA & pytest gates; runs in any project via an `.agents` symlink |
-| [`rustjiin-japan`](https://github.com/pannet1/rustjiin-japan) | Transparent Rust/Tauri desktop mascot that teaches Japanese — offline LLM, `rusqlite` vector memory, Web Speech API. [Live page →](https://pannet1.github.io/rustjiin-japan/) |
-| [`gate-nine`](https://github.com/pannet1/gate-nine) | Human-supervised black-box testing harness for a remote web app — Playwright records once, replays forever, no app source needed |
-| [`browser-agent`](https://github.com/pannet1/browser-agent) | Browser automation with an LLM in the loop |
-| [`open-converter`](https://github.com/pannet1/open-converter) | Drop a video in a watched folder → ffmpeg → faster-whisper → transcript. [Live page →](https://pannet1.github.io/open-converter/) |
-| [`make-videos`](https://github.com/pannet1/make-videos) | Videos from a prompt: React scenes rendered headless in Chromium, with local Tamil/English voiceover — or agent-cut from raw camera footage |
+| [`broker-ai`](https://github.com/pannet1/broker-ai) | **Broker-agnostic execution engine** — unified symbol mappings, normalized REST & WebSocket feeds across Delta, Finvasia, Angel One, and Flattrade. |
+| [`scalper-uma`](https://github.com/ecomsense/scalper-uma) | **Automated scalping server** — FastAPI-powered intraday scalping terminal on Indian options and futures with hard risk stops. |
+| [`quant-bt`](https://github.com/pannet1/quant-bt) | **Quantitative backtesting engine** — backtests multi-leg options combinations and compound equity strategies with shared-cost data sourcing. |
+| [`fti-holdings`](https://github.com/pannet1/fti-holdings) | **Positional ratchet sizing** — systematic Fibonacci ladder allocation for BSE ETFs. |
+| [`kite-order`](https://github.com/pannet1/kite-order) | **Order-book risk sentinel** — real-time position monitor and risk limiter for Zerodha Kite. |
+| [`dealer-web`](https://github.com/pannet1/dealer-web) | **FastAPI dealer terminal** — SQLite + Jinja live order book and position tracker for Indian market brokers. |
+
+*Additional trading engines & historical prototypes:* [`monitor-holdings`](https://github.com/pannet1/monitor-holdings), [`sauviks-excel`](https://github.com/pannet1/sauviks-excel), [`xts-excel`](https://github.com/pannet1/xts-excel), [`zero-dte`](https://github.com/pannet1/zero-dte), [`Shoonya-Scalper`](https://github.com/pannet1/Shoonya-Scalper), [`halo-hash`](https://github.com/pannet1/halo-hash), [`stock-option`](https://github.com/pannet1/stock-option).
 
 ---
 
-## Interest 3 — Automation & services that run themselves
+## 3. Local-First Multi-Modal Products
 
-The habit underneath everything else: turn a manual workflow into a service that needs no babysitting — watchers, schedulers, watchdogs, systemd units, nginx in front.
+Products built to run directly on user machines — offline inference, local speech synthesis, and client-side processing without third-party API dependencies.
 
-| Repo | What it is |
+| Product / Repo | Capabilities & Architecture |
 |---|---|
-| [`fastapi-apps`](https://github.com/pannet1/fastapi-apps) | Modular FastAPI application runner with APScheduler watchdog, market-hours scheduling, HTTP Basic Auth, and systemd deployment |
-| ↳ [`asset-manager`](https://github.com/pannet1/fastapi-apps/tree/main/apps/asset-manager) | Sub-app under `fastapi-apps` to track computers and hardware inventory |
-| ↳ [`personal-finance`](https://github.com/pannet1/fastapi-apps/tree/main/apps/personal-finance) | Sub-app under `fastapi-apps` categorising bank statements into envelope budgets |
-| [`git-bird`](https://github.com/pannet1/git-bird) | `gh` + `git` powered sync of hundreds of repos — clones what's missing, prunes what's stale, reports dirty state |
-| [`Scripts`](https://github.com/pannet1/Scripts) | Utility scripts to maintain Linux systems |
-| [`toolkit`](https://github.com/pannet1/toolkit) | Utilities used again and again across projects |
+| [`make-videos`](https://github.com/pannet1/make-videos) | **Headless video generation engine** — renders programmatic React scenes in Chromium with local Tamil/English neural voiceover pipelines. |
+| [`rustjiin-japan`](https://github.com/pannet1/rustjiin-japan) | **Interactive desktop language companion** — transparent Rust/Tauri mascot, offline speech recognition, and `rusqlite` vector memory. [Live Page →](https://pannet1.github.io/rustjiin-japan/) |
+| [`open-converter`](https://github.com/pannet1/open-converter) | **Automated transcription appliance** — watched folder pipeline converting dropped audio/video files to clean text via `faster-whisper`. [Live Page →](https://pannet1.github.io/open-converter/) |
 
 ---
 
-## Interest 4 — Low level: WASM & hardware
+## 4. Application Marketplaces & Service Automation
 
-| Repo | What it is |
+Unattended software that runs 24/7 without babysitting — watchers, schedulers, watchdogs, systemd daemons, and reverse-proxy management.
+
+| Product / Repo | Capabilities & Architecture |
 |---|---|
-| [`PCBView`](https://github.com/pannet1/PCBView) | Blazing-fast, 100% client-side web PCB viewer — WASM port of OpenBoardView, drag & drop `.brd`/`.asc`, no server uploads. [Try it live →](https://pannet1.github.io/PCBView/) |
-| [`ESP32_AdBlocker`](https://github.com/pannet1/ESP32_AdBlocker) | Network-wide ad blocking on ESP32 |
-| [`test-suite`](https://github.com/pannet1/test-suite) | Python scripts to test laptop hardware |
+| [`fastapi-apps`](https://github.com/pannet1/fastapi-apps) | **Modular FastAPI application marketplace** — dynamic auto-discovery and mounting of independent sub-applications with APScheduler watchdogs and systemd service templates. |
+| ↳ [`asset-manager`](https://github.com/pannet1/fastapi-apps/tree/main/apps/asset-manager) | Sub-app under `fastapi-apps` to track computers and hardware inventory. |
+| ↳ [`personal-finance`](https://github.com/pannet1/fastapi-apps/tree/main/apps/personal-finance) | Sub-app under `fastapi-apps` categorising bank statements into envelope budgets. |
+| [`git-bird`](https://github.com/pannet1/git-bird) | **Multi-repo synchronization engine** — inspects hundreds of local and remote GitHub repos, reporting dirty states and auto-pruning stale clones. |
+| [`Scripts`](https://github.com/pannet1/Scripts) | Curated collection of Linux maintenance, automation, and operational shell scripts. |
+| [`toolkit`](https://github.com/pannet1/toolkit) | Reusable utility modules shared across production systems. |
 
 ---
 
-## Where I'm heading
+## 5. Low-Level Systems & Edge Computing
 
-The next version of me is writing agent code: orchestration layers over coding agents, browser-driving agents as production test harnesses, and local-first LLM apps — pointed at the same markets-and-automation problems I have always worked on. If you hire for trading infrastructure, agent tooling, or unattended services, we will get along.
+| Product / Repo | Capabilities & Architecture |
+|---|---|
+| [`PCBView`](https://github.com/pannet1/PCBView) | **High-performance client-side PCB viewer** — WebAssembly (WASM) port of OpenBoardView in C; drag & drop `.brd`/`.asc` files with zero server uploads. [Try Live Web Demo →](https://pannet1.github.io/PCBView/) |
+| [`ESP32_AdBlocker`](https://github.com/pannet1/ESP32_AdBlocker) | **Microcontroller DNS sinkhole** — network-wide ad blocking running on low-cost ESP32 hardware. |
+| [`test-suite`](https://github.com/pannet1/test-suite) | Automated hardware diagnostics suite for laptop testing. |
 
-## Stack
+---
+
+## Technology Stack
 
 <p align="left">
   <a href="https://www.python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
@@ -142,29 +161,12 @@ The next version of me is writing agent code: orchestration layers over coding a
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/>
 </p>
 
-`Python` · `FastAPI` · `APScheduler` · `WebSockets` · `Rust` / `Tauri` · `rusqlite` · `Playwright` · `ffmpeg` · `faster-whisper` · `systemd` · `nginx` · `uv`
-
-## GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/pannet1">
-    <img src="https://github-readme-stats.vercel.app/api?username=pannet1&show_icons=true&theme=tokyonight&hide_border=true&hide=contribs,prs" alt="stats" />
-  </a>
-  <a href="https://github.com/pannet1">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pannet1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages" />
-  </a>
-  <br/>
-  <a href="https://github.com/pannet1">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=pannet1&theme=tokyonight&hide_border=true" alt="streak" />
-  </a>
-</p>
+`Python` · `FastAPI` · `Rust` / `Tauri` · `WebSockets` · `Playwright` · `Chrome DevTools Protocol (CDP)` · `WebAssembly (WASM)` · `faster-whisper` · `APScheduler` · `systemd` · `uv`
 
 ---
 
-## Let's build
+## Let's Connect
 
-I collaborate on **algorithmic trading systems, AI agent tooling, and unattended automation** — especially where a FastAPI service, a broker integration, or an agent saves hours a week.
+I focus on building independent software products into sustainable commercial engines. Open to technical exchanges, architecture discussions, and product collaboration.
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pannet1)
-
-<sub>Fun fact: I sleep on my laptop.</sub>
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pannet1) · [ecomsense.in](https://ecomsense.in)
