@@ -122,7 +122,6 @@ The habit underneath everything else: turn a manual workflow into a service that
 | [`PCBView`](https://github.com/pannet1/PCBView) | Blazing-fast, 100% client-side web PCB viewer — WASM port of OpenBoardView, drag & drop `.brd`/`.asc`, no server uploads. [Try it live →](https://pannet1.github.io/PCBView/) |
 | [`ESP32_AdBlocker`](https://github.com/pannet1/ESP32_AdBlocker) | Network-wide ad blocking on ESP32 |
 | [`test-suite`](https://github.com/pannet1/test-suite) | Python scripts to test laptop hardware |
-| [`musquiteer`](https://github.com/pannet1/musquiteer) | Project wiki for a mosquito-hunting drone: goals, budget, prototypes, suppliers |
 
 ---
 
