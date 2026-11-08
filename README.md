@@ -57,6 +57,11 @@ pinned_flagship_products:
     tech: [FastAPI, Low-Latency Execution, Finvasia/NSE, Risk Controls]
     capabilities: Real-time automated scalping terminal with integrated position sizing and risk circuits.
 
+  - name: repo/ApartmentThread
+    domain: local-first-iot-smart-apartments
+    tech: [Matter-over-Thread, ESP32-H2, ESP32-C6, nRF52840, Radxa-Zero-3E, Home-Assistant, Zephyr-RTOS]
+    capabilities: 100% local-first Matter-over-Thread home automation for Indian apartments; mmWave radar sensing, OpenThread border router, and zero-cloud in-wall mechanical switch retrofits.
+
 core_competencies:
   agentic_orchestration:
     - Model chaining and task DAG execution (orchestrator)
@@ -138,10 +143,11 @@ Unattended software that runs 24/7 without babysitting — watchers, schedulers,
 
 ---
 
-## 5. Low-Level Systems & Edge Computing
+## 5. IoT Hardware & Low-Level Systems
 
 | Product / Repo | Capabilities & Architecture |
 |---|---|
+| [`ApartmentThread`](https://github.com/pannet1/ApartmentThread) | **Local-first smart apartment automation** — 100% zero-cloud Matter-over-Thread system for Indian apartments; 24GHz mmWave radar sensing, OpenThread border router (ESP32-H2), and in-wall switch retrofits. |
 | [`PCBView`](https://github.com/pannet1/PCBView) | **High-performance client-side PCB viewer** — WebAssembly (WASM) port of OpenBoardView in C; drag & drop `.brd`/`.asc` files with zero server uploads. [Try Live Web Demo →](https://pannet1.github.io/PCBView/) |
 | [`ESP32_AdBlocker`](https://github.com/pannet1/ESP32_AdBlocker) | **Microcontroller DNS sinkhole** — network-wide ad blocking running on low-cost ESP32 hardware. |
 | [`test-suite`](https://github.com/pannet1/test-suite) | Automated hardware diagnostics suite for laptop testing. |
