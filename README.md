@@ -107,12 +107,12 @@ High-reliability, automated execution loops on Indian brokers (NSE/BSE). Built a
 |---|---|
 | [`broker-ai`](https://github.com/pannet1/broker-ai) | **Broker-agnostic execution engine** — unified symbol mappings, normalized REST & WebSocket feeds across Delta, Finvasia, Angel One, and Flattrade. |
 | [`scalper-uma`](https://github.com/ecomsense/scalper-uma) | **Automated scalping server** — FastAPI-powered intraday scalping terminal on Indian options and futures with hard risk stops. |
-| [`quant-bt`](https://github.com/pannet1/quant-bt) | **Quantitative backtesting engine** — backtests multi-leg options combinations and compound equity strategies with shared-cost data sourcing. |
+| [`quant-bt`](https://github.com/ecomsense/quant-bt) | **Quantitative backtesting engine** — backtests multi-leg options combinations and compound equity strategies with shared-cost data sourcing. |
 | [`fti-holdings`](https://github.com/pannet1/fti-holdings) | **Positional ratchet sizing** — systematic Fibonacci ladder allocation for BSE ETFs. |
-| [`kite-order`](https://github.com/pannet1/kite-order) | **Order-book risk sentinel** — real-time position monitor and risk limiter for Zerodha Kite. |
-| [`dealer-web`](https://github.com/pannet1/dealer-web) | **FastAPI dealer terminal** — SQLite + Jinja live order book and position tracker for Indian market brokers. |
+| [`kite-order`](https://github.com/ecomsense/kite-order) | **Order-book risk sentinel** — real-time position monitor and risk limiter for Zerodha Kite. |
+| [`dealer-web`](https://github.com/ecomsense/dealer-web) | **FastAPI dealer terminal** — SQLite + Jinja live order book and position tracker for Indian market brokers. |
 
-*Additional trading engines & historical prototypes:* [`monitor-holdings`](https://github.com/pannet1/monitor-holdings), [`sauviks-excel`](https://github.com/pannet1/sauviks-excel), [`xts-excel`](https://github.com/pannet1/xts-excel), [`zero-dte`](https://github.com/pannet1/zero-dte), [`Shoonya-Scalper`](https://github.com/pannet1/Shoonya-Scalper), [`halo-hash`](https://github.com/pannet1/halo-hash), [`stock-option`](https://github.com/pannet1/stock-option).
+*Additional engines & algorithmic prototypes at [@ecomsense](https://github.com/ecomsense):* [`monitor-holdings`](https://github.com/ecomsense/monitor-holdings), [`sauviks-excel`](https://github.com/ecomsense/sauviks-excel), [`xts-excel`](https://github.com/ecomsense/xts-excel), [`zero-dte`](https://github.com/ecomsense/zero-dte), [`Shoonya-Scalper`](https://github.com/ecomsense/Shoonya-Scalper), [`halo-hash`](https://github.com/ecomsense/halo-hash), [`stock-option`](https://github.com/ecomsense/stock-option).
 
 ---
 
