@@ -3,7 +3,7 @@
 **Product Builder & Systems Architect**  
 *Building autonomous software products: AI agent orchestration, local-first applications, and high-throughput market engines.*
 
-I build systems that execute, observe, and heal themselves — from AI coding-agent orchestrators and headless video generators to multi-broker algorithmic execution engines and pluggable application marketplaces. Full-stack founder & architect at [ecomsense](https://ecomsense.in), India.
+I build systems that execute, observe, and heal themselves — from AI coding-agent orchestrators and headless video generators to multi-broker algorithmic execution engines and pluggable application marketplaces. Full-stack founder & systems architect based in India.
 
 ---
 
@@ -107,12 +107,7 @@ High-reliability, automated execution loops on Indian brokers (NSE/BSE). Built a
 |---|---|
 | [`broker-ai`](https://github.com/pannet1/broker-ai) | **Broker-agnostic execution engine** — unified symbol mappings, normalized REST & WebSocket feeds across Delta, Finvasia, Angel One, and Flattrade. |
 | [`scalper-uma`](https://github.com/ecomsense/scalper-uma) | **Automated scalping server** — FastAPI-powered intraday scalping terminal on Indian options and futures with hard risk stops. |
-| [`quant-bt`](https://github.com/ecomsense/quant-bt) | **Quantitative backtesting engine** — backtests multi-leg options combinations and compound equity strategies with shared-cost data sourcing. |
 | [`fti-holdings`](https://github.com/pannet1/fti-holdings) | **Positional ratchet sizing** — systematic Fibonacci ladder allocation for BSE ETFs. |
-| [`kite-order`](https://github.com/ecomsense/kite-order) | **Order-book risk sentinel** — real-time position monitor and risk limiter for Zerodha Kite. |
-| [`dealer-web`](https://github.com/ecomsense/dealer-web) | **FastAPI dealer terminal** — SQLite + Jinja live order book and position tracker for Indian market brokers. |
-
-*Additional engines & algorithmic prototypes at [@ecomsense](https://github.com/ecomsense):* [`monitor-holdings`](https://github.com/ecomsense/monitor-holdings), [`sauviks-excel`](https://github.com/ecomsense/sauviks-excel), [`xts-excel`](https://github.com/ecomsense/xts-excel), [`zero-dte`](https://github.com/ecomsense/zero-dte), [`Shoonya-Scalper`](https://github.com/ecomsense/Shoonya-Scalper), [`halo-hash`](https://github.com/ecomsense/halo-hash), [`stock-option`](https://github.com/ecomsense/stock-option).
 
 ---
 
