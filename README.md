@@ -37,7 +37,7 @@ pinned_flagship_products:
     tech: [Python, LLM Chaining, AST Parsing, Pytest Automation]
     capabilities: Multi-model coding agent orchestration, feature scaffolding, specification QA & test gates.
 
-  - name: repo/rustjiin-japan
+  - name: ecomsense/rustjiin-japan
     domain: local-first-desktop-apps
     tech: [Rust, Tauri, Local LLM, rusqlite, Web Speech API]
     capabilities: Interactive transparent desktop companion with offline speech recognition and vector memory.
@@ -118,7 +118,7 @@ Products built to run directly on user machines — offline inference, local spe
 | Product / Repo | Capabilities & Architecture |
 |---|---|
 | [`make-videos`](https://github.com/pannet1/make-videos) | **Headless video generation engine** — renders programmatic React scenes in Chromium with local Tamil/English neural voiceover pipelines. |
-| [`rustjiin-japan`](https://github.com/pannet1/rustjiin-japan) | **Interactive desktop language companion** — transparent Rust/Tauri mascot, offline speech recognition, and `rusqlite` vector memory. [Live Page →](https://pannet1.github.io/rustjiin-japan/) |
+| [`rustjiin-japan`](https://github.com/ecomsense/rustjiin-japan) | **Interactive desktop language companion** — transparent Rust/Tauri mascot, offline speech recognition, and `rusqlite` vector memory. [Live Page →](https://ecomsense.github.io/rustjiin-japan/) |
 | [`open-converter`](https://github.com/pannet1/open-converter) | **Automated transcription appliance** — watched folder pipeline converting dropped audio/video files to clean text via `faster-whisper`. [Live Page →](https://pannet1.github.io/open-converter/) |
 
 ---
